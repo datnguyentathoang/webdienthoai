@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en"><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="en">
+<!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
 
 <head>
     <meta charset="UTF-8">
@@ -9,21 +10,21 @@
     <title>Thế giới di động</title>
     <!-- InstanceEndEditable -->
     <link rel="stylesheet" href="css/bootstrap-theme.css">
-<link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-<link rel="stylesheet" href="css/slick.css">
-<link rel="stylesheet" href="css/slick-theme.css">
-<link rel="stylesheet" href="css/TrangChu_style.css">
-<!-- InstanceBeginEditable name="head" -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/TrangChu_style.css">
+    <!-- InstanceBeginEditable name="head" -->
     <!-- InstanceEndEditable -->
 </head>
 
 <body>
-<header>
+    <header>
         <div class="header-list">
             <div class="header-list--logo-and-search">
                 <div class="logo">
-                    <a href="TrangChu.html"><i class="icon logo__ico"></i></a>
+                    <a href="index.html"><i class="icon logo__ico"></i></a>
                 </div>
                 <div class="search">
                     <input type="text" placeholder="Bạn tìm gì">
@@ -534,7 +535,8 @@
                                     <a href="#"><img src="images/36.jpg" alt="" class="img-responsive"></a>
                                     <div class="sub_title">
                                         <h4><a href="#">iPhone 7 Plus 32GB</a></h4>
-                                        <p class="price">12.990.000₫&nbsp;&nbsp;<span class="old_price">13.990.000₫</span></p>
+                                        <p class="price">12.990.000₫&nbsp;&nbsp;<span
+                                                class="old_price">13.990.000₫</span></p>
                                         <p class="description">Cơ hội trúng 200 học bổng tổng trị giá đến 2 tỷ đồng.</p>
                                     </div>
                                 </div>
@@ -613,7 +615,8 @@
                                     <a href="#"><img src="images/42.jpg" alt="" class="img-responsive"></a>
                                     <div class="sub_title">
                                         <h4><a href="#">Lenovo Ideapad 330S 14IKBR i5 8250U (81F400NLVN)</a></h4>
-                                        <p class="price">12.290.000₫&nbsp;&nbsp;<span class="old_price">12.990.000₫</span></p>
+                                        <p class="price">12.290.000₫&nbsp;&nbsp;<span
+                                                class="old_price">12.990.000₫</span></p>
                                         <p class="description">Tặng Balo lenovo (khuyến mãi) và <b>3 K.mãi</b> khác</p>
                                     </div>
                                 </div>
@@ -621,7 +624,8 @@
                                     <a href="#"><img src="images/43.jpg" alt="" class="img-responsive"></a>
                                     <div class="sub_title">
                                         <h4><a href="#">Acer Aspire A515 53 3153 i3 8145U/(NX.H6BSV.005)</a></h4>
-                                        <p class="price">10.990.000₫&nbsp;&nbsp;<span class="old_price">11.990.000₫</span></p>
+                                        <p class="price">10.990.000₫&nbsp;&nbsp;<span
+                                                class="old_price">11.990.000₫</span></p>
                                         <p class="description">Tặng Balo Acer (khuyến mãi) và <b>3 K.mãi</b> khác
                                         </p>
                                     </div>
@@ -1396,15 +1400,16 @@
                 </div>
                 <div class="col-md-3">
                     <ul class="list_about">
-                        <li><a href="#"><i class="icon icon_fb"></i>&nbsp;3.3tr</a> | <a href="#"><i class="icon icon_ytb"></i>&nbsp;616.1k</a></li>
+                        <li><a href="#"><i class="icon icon_fb"></i>&nbsp;3.3tr</a> | <a href="#"><i
+                                    class="icon icon_ytb"></i>&nbsp;616.1k</a></li>
                         <li>Website cùng tập đoàn:</li>
                         <li><a href="#"><i class="icon icon_dmx"></i></a></li>
                         <li><a href="#"><i class="icon icon_bhx"></i></a></li>
                     </ul>
                 </div>
             </div>
-      </div>
-</footer>
+        </div>
+    </footer>
     <div class="container-fluid privacy">
         <div class="row">
             <div class="col-md-12 sub_privacy">
@@ -1417,56 +1422,58 @@
     </div>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
-	<script src="js/slick.js"></script>
-	<script src="js/nav-mobile.js"></script>
-	<!-- InstanceBeginEditable name="EditRegion1" -->
+    <script src="js/slick.js"></script>
+    <script src="js/nav-mobile.js"></script>
+    <!-- InstanceBeginEditable name="EditRegion1" -->
     <script type="text/javascript">
-    $(document).ready(function() {
-        $('.demo').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            arrows: false,
-            asNavFor: '.title'
+        $(document).ready(function () {
+            $('.demo').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                arrows: false,
+                asNavFor: '.title'
+            });
+            $('.title').slick({
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                arrows: false,
+                asNavFor: '.demo',
+                autoplay: true,
+                focusOnSelect: true
+            });
+            $('.demo_mobile').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                arrows: false,
+                asNavFor: '.title_mobile'
+            });
+            $('.title_mobile').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                autoplay: true,
+                asNavFor: '.demo',
+                focusOnSelect: true
+            });
+            $('.phone_weekend').slick({
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                arrows: true,
+                autoplay: true,
+            });
+            $('.phone_weekend_mobile').slick({
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                arrows: true,
+                autoplay: true,
+            });
         });
-        $('.title').slick({
-            slidesToShow: 5,
-            slidesToScroll: 1,
-            arrows: false,
-            asNavFor: '.demo',
-            autoplay: true,
-            focusOnSelect: true
-        });
-        $('.demo_mobile').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            arrows: false,
-            asNavFor: '.title_mobile'
-        });
-        $('.title_mobile').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: false,
-            autoplay: true,
-            asNavFor: '.demo',
-            focusOnSelect: true
-        });
-        $('.phone_weekend').slick({
-            slidesToShow: 5,
-            slidesToScroll: 1,
-            arrows: true,
-            autoplay: true,
-        });
-        $('.phone_weekend_mobile').slick({
-            slidesToShow: 2,
-            slidesToScroll: 1,
-            arrows: true,
-            autoplay: true,
-        });
-    });
     </script>
     <!-- InstanceEndEditable -->
 </body>
 
-<!-- InstanceEnd --></html>
+<!-- InstanceEnd -->
+
+</html>
