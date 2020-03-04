@@ -1,0 +1,238 @@
+body {
+    background: #f7f7f7;
+}
+
+img {
+    margin: 0 auto;
+}
+
+a {
+    color: #000;
+}
+
+.section_dong_tien {
+    max-width: 1300px;
+}
+
+.icon_type_dong_tien {
+    background-image: url('../images/423.jpg');
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 28px;
+    height: 30px;
+}
+
+.icon_type_dong_tien_tra_gop {
+    background-position: 0 0;
+}
+
+.icon_type_dong_tien_dien {
+    background-position: -30px 0;
+}
+
+.icon_type_dong_tien_nuoc {
+    background-position: -60px 0;
+}
+
+.icon_type_dong_tien_net_fpt {
+    background-position: -89px 0;
+}
+
+.icon_type_dong_tien_net_viettel {
+    background-position: -125px 0;
+}
+
+.icon_type_dong_tien_net_vnpt {
+    background-position: -152px 0;
+}
+
+.icon_type_dong_tien_cuoc_tra_sau {
+    background-position: -175px 0;
+}
+
+.icon_type_dong_tien_cuoc_tra_truoc {
+    background-position: -200px 0;
+}
+
+.list_types_dong_tien .icon_type_dong_tien {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.list_types_dong_tien a {
+    text-transform: uppercase;
+}
+
+.list_types_dong_tien a:hover {
+    text-decoration: none;
+}
+
+.list_types_dong_tien .type_dong_tien {
+    background: #fff;
+    padding: 10px 20px;
+    float: left;
+    margin: 10px 20px 10px 0;
+    box-shadow: 1px 2px 3px 0px #ccc;
+}
+
+.type_dong_tien:hover {
+    background: #288ad6;
+    color: #fff;
+}
+
+.type_dong_tien:hover .icon_type_dong_tien_dien {
+    background-position: -30px -80px;
+}
+
+.type_dong_tien:hover .icon_type_dong_tien_nuoc {
+    background-position: -60px -80px;
+}
+
+.type_dong_tien:hover .icon_type_dong_tien_net_fpt {
+    background-position: -90px -80px;
+}
+
+.type_dong_tien:hover .icon_type_dong_tien_net_viettel {
+    background-position: -125px -80px;
+}
+
+.type_dong_tien:hover .icon_type_dong_tien_net_vnpt {
+    background-position: -152px -80px;
+}
+
+.type_dong_tien:hover .icon_type_dong_tien_cuoc_tra_sau {
+    background-position: -175px -80px;
+}
+
+.type_dong_tien:hover .icon_type_dong_tien_cuoc_tra_truoc {
+    background-position: -200px -80px;
+}
+
+.active_type_dong_tien {
+    background: #288ad6 !important;
+    color: #fff;
+}
+
+.active_type_dong_tien .icon_type_dong_tien_tra_gop {
+    background-position: 0 -80px;
+}
+
+.title_types_dong_tien h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.list_choose_dong_tien {
+    padding: 0;
+    list-style: none;
+}
+
+.list_choose_dong_tien li .step div {
+    display: inline-block;
+    background: #288ad6;
+    border-radius: 50%;
+    padding: 0px 6px;
+    color: #fff;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .15);
+    border: 3px solid #fff;
+}
+
+.list_choose_dong_tien li .manual span {
+    color: #288ad6;
+}
+
+.list_choose_dong_tien li .step .choose_location,
+.list_choose_dong_tien .step .choose_suppliers,
+.list_choose_dong_tien .step .input_infomation {
+    text-transform: uppercase;
+}
+
+.list_choose_dong_tien li {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 40px;
+    padding-top: 10px;
+    border-left: 1px solid #288ad6;
+}
+
+.list_choose_dong_tien li .step {
+    position: absolute;
+    margin-top: -30px;
+    margin-left: -13px;
+}
+
+.list_choose_dong_tien li .manual {
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 275px;
+    border: 1px solid #dedede;
+    background: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, .15);
+}
+
+.list_choose_dong_tien li .manual .glyphicon-triangle-bottom {
+    float: right;
+    margin-top: 3px;
+}
+
+.choose_dong_tien h3 {
+    text-transform: uppercase;
+}
+
+.list_choose_dong_tien .supplier,
+.list_choose_dong_tien .information {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.list_choose_dong_tien .supplier a div {
+    padding: 10px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, .15);
+    border: 1px solid #dedede;
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+
+.list_choose_dong_tien .supplier a div:hover {
+    background: #288ad6;
+    color: #fff;
+}
+
+.list_choose_dong_tien .information input {
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, .15);
+    border: 1px solid #dedede;
+    padding: 10px;
+    outline: none;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+
+.btn_watch_bill_and_pay_dong_tien {
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.btn_watch_bill_and_pay_dong_tien button {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    background: -webkit-linear-gradient(top, #f59000, #fd6e1d);
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    outline: none;
+    padding: 10px 60px;
+}
+
+.information_support {
+    border-left: 1px solid #dedede;
+}
+
+.information_support .title_information_support h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}

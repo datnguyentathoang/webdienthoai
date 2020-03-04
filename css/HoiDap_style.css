@@ -1,0 +1,331 @@
+body {
+    background: #fff;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.section_hoi_dap {
+    max-width: 1300px;
+}
+
+.title_hoi_dap {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+}
+
+.title_hoi_dap h4 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.title_hoi_dap a {
+    margin-left: auto;
+}
+
+.chu_de_noi_bat_hoi_dap h4 {
+    text-transform: uppercase;
+}
+
+.list_chu_de_noi_bat_hoi_dap {
+    list-style: none;
+    padding: 0;
+}
+
+.list_chu_de_noi_bat_hoi_dap li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.list_chu_de_noi_bat_hoi_dap li:last-child {
+    border-bottom: none;
+}
+
+.list_chu_de_noi_bat_hoi_dap span {
+    margin-top: 8px;
+    float: right;
+    cursor: pointer;
+}
+
+.list_chu_de_noi_bat_hoi_dap a:hover {
+    color: #288ad6;
+}
+
+.list_chu_de_noi_bat_hoi_dap i {
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.list_chu_de_noi_bat_hoi_dap .android {
+    background-image: url('../images/316.jpg');
+    background-position: 0 0;
+}
+
+.list_chu_de_noi_bat_hoi_dap .ios {
+    background-position: -35px 0;
+    background-image: url('../images/316.jpg');
+}
+
+.list_chu_de_noi_bat_hoi_dap .social_network {
+    background-image: url('../images/317.jpg');
+}
+
+.list_chu_de_noi_bat_hoi_dap .watch {
+    background-image: url('../images/318.jpg');
+    background-position: 0 0;
+    background-size: 35px 200px;
+}
+
+.list_chu_de_noi_bat_hoi_dap .glasses {
+    background-image: url('../images/318.jpg');
+    background-position: 0 -70px;
+    background-size: 35px 210px;
+}
+
+.list_chu_de_noi_bat_hoi_dap .printer {
+    background-image: url('../images/318.jpg');
+    background-position: 0 -35px;
+    background-size: 35px 200px;
+}
+
+.list_chu_de_noi_bat_hoi_dap .trick_game {
+    background-position: -171px -32px;
+    background-image: url('../images/316.jpg');
+    vertical-align: middle;
+}
+
+.list_chu_de_noi_bat_hoi_dap .laptop {
+    background-position: -100px 0;
+    background-image: url('../images/316.jpg');
+    vertical-align: middle;
+}
+
+.list_chu_de_noi_bat_hoi_dap .advisory {
+    background-position: -135px 0;
+    background-image: url('../images/316.jpg');
+}
+
+.list_chu_de_noi_bat_hoi_dap .wiki {
+    background-position: -170px 0;
+    background-image: url('../images/316.jpg');
+}
+
+.sub_list_chu_de_noi_bat_android_hoi_dap,
+.sub_list_chu_de_noi_bat_ios_hoi_dap,
+.sub_list_chu_de_noi_bat_social_network_hoi_dap,
+.sub_list_chu_de_noi_bat_watch_hoi_dap,
+.sub_list_chu_de_noi_bat_glasses_hoi_dap,
+.sub_list_chu_de_noi_bat_printer_hoi_dap,
+.sub_list_chu_de_noi_bat_trick_game_hoi_dap,
+.sub_list_chu_de_noi_bat_laptop_hoi_dap,
+.sub_list_chu_de_noi_bat_advisory_hoi_dap {
+    list-style: none;
+    padding: 0;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 3px 0px #000;
+    display: none;
+}
+
+.sub_list_chu_de_noi_bat_android_hoi_dap li,
+.sub_list_chu_de_noi_bat_ios_hoi_dap li,
+.sub_list_chu_de_noi_bat_social_network_hoi_dap li,
+.sub_list_chu_de_noi_bat_watch_hoi_dap li,
+.sub_list_chu_de_noi_bat_glasses_hoi_dap li,
+.sub_list_chu_de_noi_bat_printer_hoi_dap li,
+.sub_list_chu_de_noi_bat_trick_game_hoi_dap li,
+.sub_list_chu_de_noi_bat_laptop_hoi_dap li,
+.sub_list_chu_de_noi_bat_advisory_hoi_dap li {
+    padding-left: 10px;
+}
+
+.search_hoi_dap {
+    height: 40px;
+    padding-left: 22px;
+    outline: none;
+    width: calc(100% - 65px);
+}
+
+@media only screen and (min-width: 991px) {
+    .search_hoi_dap {
+        width: 87%;
+    }
+}
+
+.glyphicon-search {
+    margin-right: -22px;
+}
+
+.btn_search_hoi_dap {
+    height: 40px;
+    text-transform: uppercase;
+    background: #288ad6;
+    color: #fff;
+    outline: none;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+}
+
+.list_search_most {
+    margin-top: 10px;
+}
+
+.list_search_most a {
+    color: #288ad6;
+    margin-right: 10px;
+}
+
+.list_search_most a:hover {
+    color: #288ad6;
+    text-decoration: underline;
+}
+
+.search_box_hoi_dap {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #fff4df;
+    border-radius: 7px;
+}
+
+@media only screen and (min-width: 991px) {
+    .image_new_hoi_dap {
+        float: left;
+        width: 40%;
+        margin-right: 10px;
+    }
+}
+
+.new_hoi_dap {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.sub_title_hoi_dap h4 a:hover {
+    color: #288ad6;
+}
+
+.btn_load_more_news_hoi_dap {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #288ad6;
+    color: #fff;
+    padding: 8px 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.comment_hoi_dap {
+    width: 100%;
+}
+
+.send_pic {
+    width: 28%;
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-right: 1px solid #ccc;
+}
+
+.send_pic span {
+    font-size: 12px;
+    color: #288ad6;
+}
+
+.send_pic i {
+    background-image: url('../images/316.jpg');
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 19px;
+    display: block;
+    background-position: -205px 0;
+    cursor: pointer;
+}
+
+.submit {
+    width: 69.69%;
+    display: inline-block;
+    border-right: 1px solid #ccc;
+    padding-top: 13px;
+}
+
+.submit button {
+    outline: none;
+    text-transform: uppercase;
+    color: #fff;
+    background: #288ad6;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 2px 10px;
+    float: right;
+}
+
+.submit_comment_hoi_dap {
+    margin-top: -5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.newest_hoi_dap {
+    margin-bottom: 20px;
+}
+
+.title_post_highlights_hoi_dap h4 {
+    text-transform: uppercase;
+}
+
+.ads_hoi_dap {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.list_product_most_question_hoi_dap {
+    list-style: none;
+    padding: 0;
+}
+
+.list_product_most_question_hoi_dap li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    height: 60px;
+}
+
+.left_sub_product_most_question_hoi_dap img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
+.right_sub_product_most_question_hoi_dap a:hover,
+.right_sub_product_most_question_hoi_dap span {
+    color: #288ad6;
+}
+
+.search_product_hoi_dap {
+    width: 95%;
+    padding-left: 10px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.load_more_news_hoi_dap {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 20px;
+}
